@@ -16,10 +16,10 @@ export default class HomeIndex extends Component {
     return (
       <DocumentTitle title={msg.title}>
         <div className="home-page">
-          <p>
-            <FormattedHTMLMessage message={msg.infoHtml} />{' '}
-            <Link to="todos">{msg.todos}</Link>.
-          </p>
+
+          
+
+
         </div>
       </DocumentTitle>
     );

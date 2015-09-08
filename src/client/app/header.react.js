@@ -18,14 +18,6 @@ export default class Header extends Component {
         <h1>
           <FormattedHTMLMessage message={header.h1Html} />
         </h1>
-        <ul>
-          <li><Link to="home">{header.home}</Link></li>
-          <li><Link to="todos">{header.todos}</Link></li>
-          <li><Link to="me">{header.me}</Link></li>
-          {!viewer &&
-            <li><Link to="login">{header.login}</Link></li>
-          }
-        </ul>
       </header>
     );
   }

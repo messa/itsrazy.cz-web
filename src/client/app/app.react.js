@@ -18,11 +18,11 @@ export default class App extends Component {
   }
 
   render() {
-    const {users: {viewer}, msg} = this.props;
+    const {msg} = this.props;
 
     return (
       <div className="page">
-        <Header msg={msg} viewer={viewer} />
+        <Header msg={msg}  />
         <RouteHandler {...this.props} />
         <Footer msg={msg} />
       </div>

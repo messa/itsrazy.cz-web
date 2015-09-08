@@ -3,10 +3,7 @@ import React from 'react';
 import fetch from 'isomorphic-fetch';
 import {createValidate} from '../validate';
 
-import * as authActions from '../auth/actions';
-import * as todosActions from '../todos/actions';
-
-const actions = [authActions, todosActions];
+const actions = [];
 
 export default function createActions(BaseComponent) {
 
